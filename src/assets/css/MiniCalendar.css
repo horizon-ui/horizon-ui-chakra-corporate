@@ -104,7 +104,7 @@ abbr[title] {
 /* DARK MODE */
 
 body.chakra-ui-dark .react-calendar {
-  border-radius: 30px;
+  border-radius: 20px;
 }
 body.chakra-ui-dark .react-calendar__navigation__prev-button {
   background-color: #7551ff !important;

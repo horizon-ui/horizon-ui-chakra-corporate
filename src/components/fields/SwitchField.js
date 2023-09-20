@@ -5,11 +5,9 @@ import {
   FormLabel,
   Switch,
   Text,
-  useColorModeValue
-} from "@chakra-ui/react";
+  useColorModeValue,
+} from '@chakra-ui/react';
 // Custom components
-import React from "react";
-
 export default function Default(props) {
   const {
     id,
@@ -22,62 +20,55 @@ export default function Default(props) {
     fontSize,
     ...rest
   } = props;
-  let [checked, setChecked] = React.useState(isChecked);
-  const textColorPrimary = useColorModeValue("secondaryGray.900", "white");
+  const textColorPrimary = useColorModeValue('secondaryGray.900', 'white');
   return (
     <Box w="100%" fontWeight="500" {...rest}>
       {reversed ? (
-        <Flex align="center" borderRadius="16px">
-          {isChecked ? (
+        <Flex align="center">
+          {isChecked && onChange ? (
             <Switch
-              isChecked={checked}
+              isChecked={isChecked}
               id={id}
-              variant="main"
-              colorScheme="brandScheme"
+              colorScheme="brand"
               size="md"
-              onChange={() => setChecked(!checked)}
+              onChange={onChange}
             />
           ) : (
-            <Switch
-              id={id}
-              variant="main"
-              colorScheme="brandScheme"
-              size="md"
-            />
+            <Switch id={id} colorScheme="brand" size="md" />
           )}
           <FormLabel
             ms="15px"
             htmlFor={id}
-            _hover={{ cursor: "pointer" }}
-            direction="column"
+            _hover={{ cursor: 'pointer' }}
+            flexDirection="column"
             mb="0px"
-            maxW={textWidth ? textWidth : "75%"}
+            maxW={textWidth ? textWidth : '75%'}
           >
             <Text color={textColorPrimary} fontSize="md" fontWeight="500">
               {label}
             </Text>
             <Text
               color="secondaryGray.600"
-              fontSize={fontSize ? fontSize : "md"}
+              fontSize={fontSize ? fontSize : 'md'}
             >
               {desc}
             </Text>
           </FormLabel>
         </Flex>
       ) : (
-        <Flex justify="space-between" align="center" borderRadius="16px">
+        <Flex justify="space-between" align="center" borderRadius="6px">
           <FormLabel
             htmlFor={id}
-            _hover={{ cursor: "pointer" }}
-            direction="column"
-            maxW={textWidth ? textWidth : "75%"}
+            _hover={{ cursor: 'pointer' }}
+            flexDirection="column"
+            maxW={textWidth ? textWidth : '75%'}
           >
             <Text color={textColorPrimary} fontSize="md" fontWeight="500">
               {label}
             </Text>
             <Text
               color="secondaryGray.600"
-              fontSize={fontSize ? fontSize : "md"}
+              fontSize={fontSize ? fontSize : 'md'}
             >
               {desc}
             </Text>
@@ -86,18 +77,12 @@ export default function Default(props) {
             <Switch
               isChecked={isChecked}
               id={id}
-              variant="main"
-              colorScheme="brandScheme"
+              colorScheme="brand"
               size="md"
               onChange={onChange}
             />
           ) : (
-            <Switch
-              id={id}
-              variant="main"
-              colorScheme="brandScheme"
-              size="md"
-            />
+            <Switch id={id} colorScheme="brand" size="md" />
           )}
         </Flex>
       )}
