@@ -1,9 +1,15 @@
+# Changelog
+
+## [3.0.0] 2025-13-01
+
+### Upgraded to React 19 ⚡️
+
 ## [2.0.0] 2024-07-24
 
 ### Vulnerabilities removed
 
 - Most vulnerabilities removed, besides those cause by `react-scripts`. We kept this depedency due to the fact that there are
-many users who still use it, and there is already a Next.js version for thos who want to migrate from `react-scripts`.
+  many users who still use it, and there is already a Next.js version for thos who want to migrate from `react-scripts`.
 - Updated to React 18.
 - Updated react-table to Tanstack V8.
 
@@ -12,7 +18,6 @@ many users who still use it, and there is already a Next.js version for thos who
 🐛 Bugs solved:
 
 - Sidebar content design bug solved
-
 
 ## [1.2.1] 2022-11-01
 
@@ -24,6 +29,7 @@ many users who still use it, and there is already a Next.js version for thos who
 🚀 HyperTheme Editor
 
 - With the help of the guys from Hyperting, we added HyperTheme Editor. You can check the docs [here](https://www.hyperthe.me/documentation/getting-started/community)!
+
 ## [1.1.0] 2022-06-08
 
 🐛 Bugs solved:

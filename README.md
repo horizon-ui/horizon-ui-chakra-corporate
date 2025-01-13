@@ -1,6 +1,6 @@
 # [Horizon UI ⚡️](https://horizon-ui.com/horizon-ui-chakra) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://horizon-ui.com/&text=Check%20Horizon%20UI,%20the%20trendiest%20open-source%20admin%20template%20for%20Chakra%20UI%20&%20React!)
 
-![version](https://img.shields.io/badge/version-2.0.0-brightgreen.svg)
+![version](https://img.shields.io/badge/version-3.0.0-brightgreen.svg)
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![GitHub issues open](https://img.shields.io/github/issues/horizon-ui/horizon-ui-chakra.svg?maxAge=2592000)](https://github.com/horizon-ui/horizon-ui-chakra/issues?q=is%3Aopen+is%3Aissue)
 
@@ -9,7 +9,6 @@
 [<img alt="Horizon UI" src="https://i.ibb.co/fdyTwz1/introduction-image-2.png" /> ](https://github.com/horizon-ui/horizon-ui-chakra)
 
 <p>&nbsp;</p>
-
 
 Get started and build your dream web app with Horizon UI, the most trendiest &
 innovative Open Source Admin Template for Chakra UI & React!
@@ -30,9 +29,9 @@ Authentication Pages, Profile and so on. Just choose between a Basic Design or a
 cover and you are good to go!
 
 ### 🎉 [NEW] Horizon UI Components
+
 All the main components from both versions, this will help you to see and interact with all & the latest added components of Horizon (also, new components are on the way, stay tuned)! ⚡️
 <a href="https://horizon-ui.com/components/?ref=readme-horizon" target="_blank">See all components</a>
-
 
 ### Documentation
 
